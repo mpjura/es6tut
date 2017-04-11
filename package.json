@@ -2,7 +2,7 @@
   "name": "es6tut",
   "version": "1.0.0",
   "description": "ES 6 Tutorial w/ Babel",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "git@github.com:mpjura/es6tut.git",
   "author": "Mike <mpjura@hearst.com>",
   "license": "MIT",
