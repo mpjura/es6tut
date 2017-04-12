@@ -2,10 +2,13 @@ const path = require('path'),
 webpack = require('webpack');
 
 module.exports = {
-	entry: './js/main.js',
+	entry: {
+		app: './js/main.js',
+		ratefinder: './js/ratefinder.js'
+	},
 	output: {
 		path: path.resolve(__dirname, 'build'),
-		filename: 'main.bundle.js'
+		filename: '[name].bundle.js'
 	},
 	module: {
 		loaders: [

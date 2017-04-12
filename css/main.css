@@ -159,3 +159,7 @@ button:active {
 button:focus {
     outline:0;
 }
+
+.rate-finder {
+    float: right;
+}
